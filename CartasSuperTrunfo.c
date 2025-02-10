@@ -1,3 +1,5 @@
+//Código para Super-Trunfo.
+
 #include <stdio.h>
 
 int main() {
