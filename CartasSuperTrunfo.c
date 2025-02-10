@@ -1,4 +1,4 @@
-//Código para Super-Trunfo.
+//Código para Cartas Super-Trunfo.
 
 #include <stdio.h>
 
