@@ -5,7 +5,7 @@
 int main() {
 
     int populacao, pontost;
-    float area, pib;
+    float area, pib, dp, pibpp;
     char pais[30], estado[20], cidade[20], codigo[20];
 
     printf("CADASTRO SUPER TRUNFO\n\n");
@@ -56,8 +56,16 @@ int main() {
 //Váriaveis do tipo DOUBLE.
 
     printf("Área: %.3f km²\n", area);
-    printf("PIB: %.3f\n", pib);
+    printf("PIB: %.3f Reais\n", pib);
 
+
+//Operações com valores fornecidos.
+
+dp = (float) populacao / area;
+pibpp = (float) pib / populacao;
+
+printf("Densidade Populacional: %.3f hab/km²\n", dp);
+printf("PIB Per Capita: %.3f Reais\n", pibpp);
 
     return 0;
 }
