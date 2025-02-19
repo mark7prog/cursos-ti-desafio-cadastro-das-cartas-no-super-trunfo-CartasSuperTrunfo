@@ -75,7 +75,7 @@ int main() {
     pibp1 = pib1 / (float) populacao1;
 
     printf("Densidade Populacional: %.3f hab/km²\n", dp1);
-    printf("PIB Per Capita: %.10f Reais\n", pibp1);
+    printf("PIB Per Capita: %.20f Reais\n", pibp1);
 
 //Cálculo do Super Poder - 1ª Carta.
 
@@ -146,7 +146,7 @@ int main() {
     pibp2 = pib2 / (float) populacao2;
 
     printf("Densidade Populacional: %.3f hab/km²\n", dp2);
-    printf("PIB Per Capita: %.10f Reais\n", pibp2);
+    printf("PIB Per Capita: %.20f Reais\n", pibp2);
 
 //Cálculo do Super Poder - 2ª Carta.
 
